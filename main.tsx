@@ -1,6 +1,4 @@
-/** @jsx h */
-
-import blog, { ga, redirects, h } from "blog";
+import blog from "https://deno.land/x/blog/blog.tsx";
 
 blog({
   author: "Stephen Farmer",
@@ -17,6 +15,8 @@ blog({
     { title: "Twitter", url: "https://twitter.com/majorcode" },
   ],
   lang: "en",
-  dateStyle: "long",
+  dateFormat: date => date.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}),
+  canonicalUrl: "https://www.majorcode.com",
+  theme: "auto",
   favicon: "major.svg",
 });
