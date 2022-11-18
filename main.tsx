@@ -17,6 +17,6 @@ blog({
   lang: "en",
   dateFormat: (date: Date) => date.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}),
   canonicalUrl: "https://www.majorcode.com",
-  theme: "auto",
+  theme: "light",
   favicon: "major.svg",
 });
