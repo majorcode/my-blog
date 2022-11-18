@@ -1,10 +1,10 @@
-import blog from "$blog";
+import blog from "https://deno.land/x/blog/blog.tsx";
 
 blog({
   author: "Stephen Farmer",
   title: "majorcode",
   description: 'Why "major?" No reason, really.',
-  avatar: "major.svg",
+  avatar: "/img/major.svg",
   avatarClass: "rounded-full",
   links: [
     { title: "Email", url: "mailto:sfarmer@majorcode.com" },
@@ -15,5 +15,5 @@ blog({
   dateFormat: (date: Date) => date.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}),
   canonicalUrl: "https://www.majorcode.com",
   theme: "light",
-  favicon: "major.svg",
+  favicon: "/img/major.svg",
 });
