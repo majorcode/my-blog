@@ -1,4 +1,4 @@
-import blog from "blog";
+import blog from "$blog";
 
 blog({
   author: "Stephen Farmer",
@@ -12,7 +12,7 @@ blog({
     { title: "Twitter", url: "https://twitter.com/majorcode" },
   ],
   lang: "en",
-  // dateFormat: (date: Date) => date.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}),
+  dateFormat: (date: Date) => date.toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}),
   canonicalUrl: "https://www.majorcode.com",
   theme: "light",
   favicon: "major.svg",
