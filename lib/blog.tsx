@@ -172,7 +172,7 @@ export async function configureBlog(
     const blogPath = fromFileUrl(url);
     directory = dirname(blogPath);
   } catch (e) {
-    console.log(`URL: url`);
+    console.log(`URL: ${url}`);
     console.error(e);
     throw new Error("Cannot run blog from a remote URL.");
   }
