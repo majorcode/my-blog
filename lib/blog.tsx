@@ -166,16 +166,15 @@ export async function configureBlog(
   isDev: boolean,
   settings?: BlogSettings,
 ): Promise<BlogState> {
-  let directory;
+  let directory = ".";
 
-  try {
-    const blogPath = fromFileUrl(url);
-    directory = dirname(blogPath);
-  } catch (e) {
-    console.log(`URL: ${url}`);
-    console.error(e);
-    throw new Error("Cannot run blog from a remote URL.");
-  }
+  // try {
+  //   const blogPath = fromFileUrl(url);
+  //   directory = dirname(blogPath);
+  // } catch (e) {
+  //   console.error(e);
+  //   throw new Error("Cannot run blog from a remote URL.");
+  // }
 
   const state: BlogState = {
     directory,
