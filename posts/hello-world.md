@@ -8,4 +8,9 @@ This is my first blog post, *maybe* my tenth false start at keeping a blog. I sw
 
 I'll just leave this here because I think it's great.
 
-![We miss you, Joe.](/img/joe.jpg)
+![Drawing of Joe Armstrong with a famous quote.](/img/joe.jpg)
+
+> Make it work, then make it beautiful. Then if you really, really have to, make it fast.
+> 90% of the time, if you mke it beautiful, it will already be fast.
+> So really, just make it <u>BEAUTIFUL!</u>
+> - [Joe Armstrong](https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer))
