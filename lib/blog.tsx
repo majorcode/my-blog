@@ -166,7 +166,7 @@ export async function configureBlog(
   isDev: boolean,
   settings?: BlogSettings,
 ): Promise<BlogState> {
-  let directory = ".";
+  const directory = ".";
 
   // try {
   //   const blogPath = fromFileUrl(url);
