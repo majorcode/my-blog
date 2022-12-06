@@ -1,7 +1,7 @@
 ---
 title: Make Megawatt the New Kilowatt
 publish_date: 2022-12-5
-tags: [tesla, eev, thoughts]
+tags: ["tesla", "eev", "thoughts"]
 ---
 
 Don’t know if you’re up on the news about the Tesla semi. I like the fact the regenerative braking can keep the brakes unused, and cool, during hill descents. That makes the semi much safer when emergency braking is needed. I also like its ability to pass other semis almost as fast as a car can pass. These trucks won’t be holding up traffic.
