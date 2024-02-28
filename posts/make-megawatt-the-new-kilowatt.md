@@ -1,6 +1,6 @@
 ---
 title: Make Megawatt the New Kilowatt
-publish_date: 2022-12-5
+publish_date: 2022-12-05
 tags: [tesla, eev, thoughts]
 ---
 
